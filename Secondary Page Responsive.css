@@ -1,0 +1,84 @@
+@media screen and (max-width: 1112px){
+.band-info-container{
+		width: 100%;
+		height: auto;
+		justify-content: center;
+	}
+
+.band-poster{
+		height: 50%;
+		width: 50%;
+		justify-content: center;
+	}
+	.band-details{
+		height: 50%;
+		width: 100%;
+		align-items: center;
+	}
+
+
+}
+
+
+@media screen and (max-width: 900px){
+
+	/*header started*/
+	.header{
+		height: auto;
+	}
+
+
+	.header-right-side{
+		left: auto;
+		display: absolute;
+	}
+	/*header ended*/
+
+
+/*Playlist container started*/
+	.playlist-container{
+		flex-wrap: wrap;
+		height: auto;
+	}
+
+
+	.playlist-container-left-side, .playlist-container-right-side{
+		width: 100vw;
+	}
+
+
+
+	.band-info-container{
+		width: 100%;
+		height: auto;
+		justify-content: center;
+	}
+	
+	.band-poster{
+		height: 50%;
+		width: 50%;
+		justify-content: center;
+	}
+
+	.band-details{
+		height: 50%;
+		width: 100%;
+		align-items: center;
+	}
+
+/*Playlist container ended*/
+/*Song queue*/
+		
+	.song-queue{
+		height: auto;
+	}
+
+	.playlist-poster{
+		height: 70px;
+	}
+
+/*Song queue*/
+	
+
+	
+}

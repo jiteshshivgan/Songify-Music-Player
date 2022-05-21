@@ -1,0 +1,43 @@
+@media screen and (max-width: 900px){
+	/*header started*/
+	.header-right-side{
+		left: auto;
+		display: absolute;
+	}
+	/*header ended*/
+
+	/*album poster*/
+	.album-poster-container {
+    width: 100vw;
+    height: auto;
+	}
+
+	.album-poster-container{
+		width: 100%;
+	}
+
+	.latest-release-container{
+		width: 100%;
+	}
+
+	.popular-artists-container, .latest-english-container, .latest-hindi-container{
+		width: 100%;
+		height: 200px;
+
+	}
+
+	.station-container{
+		width: 100%;
+	}
+
+	.musical-genres-container{
+		width: 100%;
+	}
+	.musical-genres-text{
+		font-size: 20px;
+	}
+
+	.song-queue{
+		width: 100%;
+	}
+}

@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+/*Header*/
+.header{
+	height: 10vh;
+	background-color: #0C1027;
+	width: 100%;
+	/*margin-top: -6px;*/
+	display: flex;
+	align-items: center;
+	color: white;
+	font-family: 'Varela Round', sans-serif;
+}
+
+.music-player-icon i{
+	color: orange;
+	font-size: 28px;
+	margin: 5px;
+	padding: 5px;
+}
+body,html{
+	height: 100%;
+	width: 100%;
+	color: white;
+
+}
+main{
+background-image: linear-gradient(to top right,#0C1027, red, purple);
+}
+*{
+	margin: 0px;
+	padding: 0px;
+
+}
+
+
+.favorites{
+	display: inline-block;
+	margin-left: 60px;
+	margin-top: 10px;
+}
+.favorites a{
+	font-style: none;
+	text-decoration: none;
+	color: white;
+}
+
+.header-right-side{
+	display: inline-flex;
+	align-items: center;
+	position: relative;
+	left: 60%;
+}
+
+/*search-icon*/
+.input-icon i{
+	position: absolute;
+	padding: 2px;
+	color: black;
+}
+.search-field{
+	text-align: center;
+}
+.user-image img{
+	height: 100%;
+	width: 50px;
+	border-radius: 50%;
+	margin-top: -12px;
+}
+
+
+
+/*Playlist container*/
+
+.playlist-container{
+	display: flex;
+	height: 145vh;
+	width: auto;
+	/*border: 1px solid black;*/
+	margin: 10px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	overflow: hidden;
+	padding: 0px 40px;
+}
+
+.playlist-container-left-side{
+	display: flex;
+	flex-direction: column;
+	width: 70%;
+	margin: 5px;
+	/*border: 1px solid black;*/
+	height: auto;
+}
+
+.band-info-container{
+	width: auto;
+	margin: 1.5%;
+	box-sizing: border-box;
+	height: 40%;
+	/*border: 1px solid black;*/
+	display: flex;
+/*	align-items: center;*/
+flex-wrap: wrap;
+background-color: #141B41;
+}
+
+
+.band-poster{
+	height: 100%;
+	width: 30%;
+	/*border: 1px solid black;*/
+	margin: 0px 10px;
+	box-sizing: border-box;
+}
+.band-poster:hover{
+	height: 103%;
+	width: 30%;
+}
+.band-poster img{
+	height: 100%;
+	width: 100%;
+
+}
+.band-details{
+	height: 100%;
+	width: 67%;
+	/*border: 1px solid black;*/
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	line-height: 25px;
+}
+.band-details p{
+	line-height: 20px;	
+}
+.play-all{
+	height: 25px;
+	width: 80px;
+	background-color: blue;
+	color: white;
+	text-align: center;
+}
+.play-all-container{
+	display: flex;
+}
+
+/*My playlist*/
+
+.song-queue, .artist-queue, .recently-played-queue{
+	height: 100vh;
+	width: 100%;
+	box-sizing: border-box;
+	/*border: 2px solid black;*/
+	display: flex;
+	flex-direction: column;
+	padding: 0px 10px;
+	position: relative;
+	overflow: scroll;
+}
+
+.playlist-poster, .artist-poster, .recently-played-poster{
+	height: 86px;
+	width: 100%;
+	/*border: 1px solid black;*/
+	box-sizing: border-box;
+	font-family: 'Varela Round', sans-serif;
+	display: flex;
+	flex-direction: row;
+	font-size: 15px;
+	margin: 10px 0px;
+	background-color: #1A1E33;
+	color: white;
+	overflow: hidden;
+}
+
+.playlist-poster-left, .artist-poster-left, .recently-played-poster-left{
+	height: 100%;
+	width: 50%;
+	display: flex;
+	/*border: 1px solid black;*/
+	justify-content: flex-start;
+	align-items: center;
+	padding: 0px 10px;
+}
+.playlist-poster-right, .artist-poster-right, .recently-played-poster-right{
+	height: 100%;
+	width: 50%;
+	display: flex;
+	justify-content: flex-end;
+	/*border: 1px solid black;*/
+	align-items: center;
+	padding: 0px 10px;
+	padding-right: 20px;
+}
+
+
+.playlist-poster-left img{
+	height: 100%;
+	width: 20%;
+	overflow: hidden;
+}
+
+/*bottom-bar*/
+.bottom-bar{
+	height: auto;
+	background-color: black;
+	width: 100%;
+	position: sticky;
+	bottom: 0%;
+	display: flex;
+	flex-direction: column;	
+	justify-content: center;
+	align-items: center;
+	color: white;
+}
+.range-bar{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+.range-bar input{
+	width: 50%;
+}
+
+.voice-control-container{
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+}
+.voice-control-icons{
+	padding: 8px;
+	font-size: 30px;
+}
+
+/*Right side*/
+
+
+.playlist-container-right-side{
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+	margin: 5px;
+	/*border: 1px solid black;*/
+	height: auto;
+}
+.artist-queue{
+	overflow: unset;
+	height: auto;
+}
+
+.artist-poster{
+	height: 60px;
+	font-size: 11px;
+}
+
+.artist-poster-left img{
+	width: 40%;
+	height: 100%;
+}
+
+
+/*Recently-played*/
+
+.recently-played-queue{
+	overflow: unset;
+	height: auto;
+}
+
+.recently-played-poster{
+	height: 60px;
+	font-size: 11px;
+}
+
+.recently-played-poster-left img{
+	width: 40%;
+	height: 100%;
+}
+
+.black-dots-icon i{
+	color: white;
+	font-size: 15px;
+
+}
+.recently-played-poster-right{
+	position: relative;
+}
+
+#black-dots-box{
+	height: 0%;
+	width: 0%;
+	overflow: hidden;
+	position: absolute;
+	z-index: 1;
+}
+
+#black-dots-box:target{
+	height: auto;
+	width: 150px;
+	text-align: left;
+	background-color: white;
+	position: absolute;
+	color: black;
+	z-index: 1;
+}
+.border-bottom{
+	border-bottom:2px solid black ;
+}
